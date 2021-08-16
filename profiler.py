@@ -1,4 +1,5 @@
 import os
-with open('PyRun.txt','w'):
-    write('Triggered Successfully')
+f=open('PyRun.txt','w')
+f.write('Triggered Successfully')
+f.close()
 
